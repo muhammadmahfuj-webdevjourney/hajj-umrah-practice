@@ -1,0 +1,70 @@
+@font-face {
+   font-family: "kalpurush";
+   src: url(../fonts/kalpurush.ttf);
+
+}
+@font-face {
+   font-family: "hind siliguri";
+   src: url(../fonts/Hind_Siliguri-Bold.ttf);
+}
+.sec1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   place-items: center;
+   padding-top: 10px; 
+}
+
+h1{
+   font-family: 'hind siliguri';
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 50px;
+   color: #4F4444;
+   text-align: center;
+}
+
+.extra-text{
+   font-family: 'kalpurush';
+   color: #766462;
+   font-weight: 400px;
+   font-size: 15px;
+   text-align: left;
+}
+p{
+   font-family: 'kalpurush';
+   color: #6D6D6D;
+   font-weight: 400;
+   font-size: 15px;
+   text-align: left;
+
+}
+.para{
+   border-style: none;
+   border-radius: 20px;
+   width: 500px;
+   height: 375px;
+   align-items: center;
+}
+a{
+   font-family: 'hind siliguri';
+   font-weight: 400;
+   font-size: 15px;
+   color: #4F4444;
+   text-align: left;
+}
+
+
+.image {
+   border-style: none;
+   border-radius: 20px;
+   width: 500px;
+   height: 375px;
+   overflow: hidden;
+}
+.img1{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
